@@ -32,22 +32,50 @@
       z-index: 1;
       
     }
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 1;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
   
-  nav ul li a {
-    display: block;
-    padding: 0.5rem 1rem;
-    color: #fff;
-    text-decoration: none;
-  }
+    nav li {
+      display: inline-block;
+      margin: 0 10px;
+      position: relative;
+    }
   
-  nav ul li a:hover {
-    background-color: #e28a8a;
-  }
-
+    nav a {
+      color: #fff;
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+    }
+  
+    nav a:hover {
+      background-color: #fff;
+      color: #333;
+    }
+  
+    nav a:before {
+      content: "";
+      display: block;
+      height: 3px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+    }
+  
+    nav a:hover:before {
+      background-color: #fff;
+      width: 100%;
+    }
   main {
     max-width: 1000px;
     margin: 0 auto;
