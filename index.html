@@ -9,18 +9,24 @@
 
   <body>
     <header>
-        <video  autoplay loop>
-        <source src="tinta-67358.mp4" type="video/mp4"></video>
-        <h1>Ailuros</h1>
-        <nav>
+       <div class="logo>
+          <a href="#">Ailuros</div>
+      </div>
+        <nav id="nav">
           <ul>
-          <li><a href="#Sobre mi">Sobre mi</a></li>
-          <li><a href="#Proyectos">Proyectos</a></li>
-          <li><a href="#Contacto">Contacto</a></li>
+          <li><a href="#Sobre mi" onclick="Seleccionar()">Sobre mi</a></li>
+          <li><a href="#Proyectos" onclick="Seleccionar()">Proyectos</a></li>
+          <li><a href="#Contacto" onclick="Seleccionar()">Contacto</a></li>
         </ul>
         </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+      </div>
           </header>
     <main>
+      <video  autoplay loop>
+        <source src="tinta-67358.mp4" type="video/mp4"></video>
+        <h1>Ailuros</h1>
       <section id="Proyectos">
         <h2>Proyectos</h2>
 
