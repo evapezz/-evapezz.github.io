@@ -6,7 +6,7 @@
   }
   
 .contenedor-header{
-  background: #fd35c1;
+  background: #6dbb7e3;
   position: fixed;
   width: 100%;
   top: 0;
@@ -24,7 +24,7 @@
 .contenedor-header header .logo a{
   font-family: 'Arial';
   font-size: 36px;
-  color: #f5bfe7;
+  color: #a9eff3;
   text-decoration: none;
 }
 .contenedor-header header ul{
@@ -40,10 +40,10 @@
   text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-  color: #e989d4;
+  color: #1c7eb6;
 }
 .nav-responsive{
-  background-color: #f89ad7;
+  background-color: #1c9fb6;
   color:#fff;
   padding: 5px 10px;
   border-radius: 5px;
