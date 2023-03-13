@@ -6,7 +6,7 @@
   }
   
 .contenedor-header{
-  background: #1e2326;
+  background: #fd35c1;
   position: fixed;
   width: 100%;
   top: 0;
@@ -22,7 +22,7 @@
   padding: 15px 20px;
 }
 .contenedor-header header .logo a{
-  font-family: 'Righteous';
+  font-family: 'Arial';
   font-size: 36px;
   color: #f5bfe7;
   text-decoration: none;
